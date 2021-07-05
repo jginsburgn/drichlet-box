@@ -1,0 +1,33 @@
+{
+  "name": "drichlet-box",
+  "version": "1.0.0",
+  "description": "A function that returns the hole index for the numbered pigeon (in Pigeonhole Principle lingo).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jginsburgn/drichlet-box.git"
+  },
+  "keywords": [
+    "drichlet",
+    "box",
+    "pigeonhole",
+    "drawer",
+    "principle"
+  ],
+  "author": "Jonathan Ginsburg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jginsburgn/drichlet-box/issues"
+  },
+  "homepage": "https://github.com/jginsburgn/drichlet-box#readme",
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-google": "^0.14.0",
+    "jasmine": "^3.8.0"
+  }
+}
